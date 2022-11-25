@@ -16,7 +16,7 @@ class TestFileStorage(unittest.TestCase):
     """Test Cases for the FileStorage class."""
 
     def setUp(self):
-        """Sets up test methods."""
+        """This Sets up test methods."""
         pass
 
     def resetStorage(self):
@@ -26,7 +26,7 @@ class TestFileStorage(unittest.TestCase):
             os.remove(FileStorage._FileStorage__file_path)
 
     def tearDown(self):
-        """Tears down test methods."""
+        """This tears down test methods."""
         self.resetStorage()
         pass
 
