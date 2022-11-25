@@ -35,7 +35,7 @@ class BaseModel:
             storage.new(self)
 
     def __str__(self):
-        """Returns official string representation"""
+        """This function Returns official string representation"""
 
         return "[{}] ({}) {}".\
             format(type(self).__name__, self.id, self.__dict__)
